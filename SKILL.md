@@ -441,9 +441,9 @@ mesh.offset({
     targets: [{ target: "Oxide", value: 0.001, factor: 1.5 }],
 });
 
-mesh.buildMesh("n@node@_msh.tdr");
-draw.saveModel("n@node@_str.tdr");
-save("sde_diode.cmd");
+mesh.buildMesh("n@node@");
+draw.saveModel("n@node@");
+save("n@node@_cod.cmd");
 ```
 
 ## Common materials / dopants (generic unions)
